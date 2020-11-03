@@ -10,6 +10,6 @@ xhr.addEventListener("readystatechange", function () {
 });
 
 xhr.open("GET", "https://sandbox.api.mxmerchant.com/checkout/v3/merchant/516158974");
-xhr.setRequestHeader("authorization", "Basic dVNSMXY4YmVVRUdmZmp1UGhuZm1XQVRJOjBVVTVjcjVURlU5a2ppNS9US1cwWHJwZERXZz0=");
+xhr.setRequestHeader("authorization", "Basic dVNSMXY4YmVVRUdmZmp1UGhuURlU5a2ppNS9US1cwWHJwZERXZz0=");
 
 xhr.send(data);
